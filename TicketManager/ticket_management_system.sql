@@ -40,11 +40,11 @@ CREATE TABLE `tickets` (
 --
 
 INSERT INTO `tickets` (`id`, `time`, `price`, `type`, `detail`) VALUES
-(1, '2023-07-15 14:30:00', 20.00, 'General Admission', 'Event: Music Festival'),
-(2, '2023-02-03 11:00:00', 30.00, 'Student', 'Event: Museum Exhibition, Student ID: 1234'),
+(1, '2023-07-15 14:30:00', 20.00, 'Normal', 'Event: Music Festival'),
+(2, '2023-02-03 11:00:00', 30.00, 'Normal', 'Event: Museum Exhibition, Student ID: 1234'),
 (3, '2023-09-02 17:30:00', 140.00, 'VIP', 'Event: Theatre Play, Seat: A2'),
-(4, '2023-10-14 18:00:00', 55.00, 'Senior Citizen', 'Event: Symphony Orchestra, Seat: B5'),
-(5, '2023-07-05 14:30:00', 60.00, 'Student', 'Event: Museum Exhibition, Student ID: 1224');
+(4, '2023-10-14 18:00:00', 55.00, 'Normal', 'Event: Symphony Orchestra, Seat: B5'),
+(5, '2023-07-05 14:30:00', 60.00, 'VIP', 'Event: Museum Exhibition, Student ID: 1224');
 
 --
 -- Chỉ mục cho các bảng đã đổ
